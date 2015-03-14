@@ -1,3 +1,0 @@
-/**
- * @author Juan Morales-Rocha
- */
