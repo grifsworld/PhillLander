@@ -1,0 +1,41 @@
+<HTML>
+	<!--<font size="16"><p><b>Phil Lander</b></p></font>
+	<p>Journey to the ends of the Solar System!</p>
+	<p>Rescue Xena the Comet Princess!</p>
+	<p>Stop the evil wrath of Count Pluto!</p>-->
+<canvas id="canvas" width = 1200 height = 800></canvas>
+<script src = "scripts/Menu.js"></script>
+<script src = "scripts/main.js"></script>
+<script src = "scripts/Button.js"></script>
+<script src = "scripts/Sprite.js"></script>
+<script src = "scripts/lander.js"></script>
+<script src = "scripts/Background.js"></script>
+<script src = "scripts/howler.js"></script>
+
+<script>
+var sound = new Howl({
+	urls:['Audio/sounds.mp3','Audio/sounds.ogg' ],
+	loop:true,
+	sprite: {
+		charging:[0, 4994],
+		collision: [5236, 5850],
+		explosion: [6216, 10000],
+		accel: [14040, 23900]
+}
+});
+
+var music = new Howl({
+	urls:['Audio/music.mp3','Audio/music.ogg' ],
+	loop: true,
+	sprite: {
+		title:[0, 12000],
+		level1:[194993,306424],
+		level2:[16128, 91517],
+		menu: [94662,190601]
+	}
+});
+</script>
+
+<body onload="loadGame()">
+	</body>
+</HTML>

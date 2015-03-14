@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="GameSoudns_data" version="1.3.0" audacityversion="2.0.6" sel0="23.3378952567" sel1="23.3378952567" vpos="0" h="8.8263103192" zoom="63.6732654617" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="TITLE" value="MLP"/>
+		<tag name="ARTIST" value="JMR"/>
+	</tags>
+	<wavetrack name="Charging" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="239734">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000aea.au" len="239734" min="-0.235657" max="0.24823" rms="0.049229"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="4.994437500000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="5.23609977">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="29448">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d22.au" len="29448" min="-0.690491" max="0.782837" rms="0.093796"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="6.21632345">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="346157">
+				<waveblock start="0">
+					<simpleblockfile filename="e00001f1.au" len="195795" min="-0.848697" max="0.851048" rms="0.183934"/>
+				</waveblock>
+				<waveblock start="195795">
+					<simpleblockfile filename="e0000d30.au" len="131072" min="-0.022988" max="0.02054" rms="0.003411"/>
+				</waveblock>
+				<waveblock start="326867">
+					<simpleblockfile filename="e0000c55.au" len="19290" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="14.04042958">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="475220">
+				<waveblock start="0">
+					<simpleblockfile filename="e000041a.au" len="195795" min="-0.597228" max="0.552083" rms="0.131289"/>
+				</waveblock>
+				<waveblock start="195795">
+					<simpleblockfile filename="e00003d6.au" len="131072" min="-0.516303" max="0.500373" rms="0.135464"/>
+				</waveblock>
+				<waveblock start="326867">
+					<simpleblockfile filename="e0000460.au" len="131072" min="-0.514608" max="0.471143" rms="0.13541"/>
+				</waveblock>
+				<waveblock start="457939">
+					<simpleblockfile filename="e0000b7a.au" len="17281" min="-0.289938" max="0.28407" rms="0.030636"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Charging" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="239734">
+				<waveblock start="0">
+					<simpleblockfile filename="e000055b.au" len="239734" min="-0.500031" max="0.554382" rms="0.112828"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="4.994437500000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="5.23609977">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="29448">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000fff.au" len="29448" min="-0.690369" max="0.78299" rms="0.093797"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="6.21632345">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="346157">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000040.au" len="195795" min="-0.848441" max="0.84864" rms="0.20327"/>
+				</waveblock>
+				<waveblock start="195795">
+					<simpleblockfile filename="e00001f4.au" len="131072" min="-0.016546" max="0.014708" rms="0.002721"/>
+				</waveblock>
+				<waveblock start="326867">
+					<simpleblockfile filename="e00005c1.au" len="19290" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="14.04042958">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="475220">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f83.au" len="195795" min="-0.597228" max="0.552083" rms="0.131289"/>
+				</waveblock>
+				<waveblock start="195795">
+					<simpleblockfile filename="e0000a0e.au" len="131072" min="-0.516303" max="0.500373" rms="0.135464"/>
+				</waveblock>
+				<waveblock start="326867">
+					<simpleblockfile filename="e00002a6.au" len="131072" min="-0.514608" max="0.471143" rms="0.13541"/>
+				</waveblock>
+				<waveblock start="457939">
+					<simpleblockfile filename="e0000aba.au" len="17281" min="-0.289938" max="0.28407" rms="0.030636"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0"/>
+	<wavetrack name="Metal Collision (Crashing into Meteor) " channel="0" linked="1" mute="0" solo="0" height="142" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0"/>
+	<wavetrack name="Metal Collision (Crashing into Meteor) " channel="1" linked="0" mute="0" solo="0" height="158" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0"/>
+	<wavetrack name="Small Explosion" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0"/>
+	<wavetrack name="Small Explosion" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0"/>
+	<wavetrack name="Speed" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0"/>
+	<wavetrack name="Speed" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0"/>
+</project>
