@@ -168,16 +168,17 @@ function createMenus()
 
 
 function loadGame()
-{
+{	
+	
+	
 	loadImages();
 	loadButtons();
 	console.log("loaded game");
 	createMenus();
-	createBackground();
+	
 	makeBoundary();
 	initMeteors(level);
 	randEvent();
-	background.draw();
 	startGame();
 	mainMenu.draw();
 	
@@ -185,6 +186,8 @@ function loadGame()
 
 function startGame()
 {
+	createBackground();
+	
 	console.log("drawing menu");
 	music.play('title');
 	music.volume(0.3);
@@ -194,6 +197,7 @@ function startGame()
 		
 		if(gameState == "off" && mainMenu.enabled )
 		{
+			background.draw();
 			//console.log("drawing main menu");
 			mainMenu.draw();
 		}

@@ -23,7 +23,7 @@ function Background(image) {
 
 Background.prototype.onImageLoad = function()
 {
-	console.log("image loaded");
+	console.log("background loaded");
 }
 
 Background.prototype.getContext = function(context, width, height)
