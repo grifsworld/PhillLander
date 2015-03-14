@@ -740,7 +740,7 @@ function healthCondition(){
 	if( health <= 0){
 	sound.play('explosion');
 	alert(" You Died! \n Your Score: " + Math.floor(score) + "\n You made it to level: " + level);
-    location.reload();
+    window.location.reload(true);
 	}
 }
 
